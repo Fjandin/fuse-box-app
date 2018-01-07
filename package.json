@@ -1,0 +1,40 @@
+{
+  "name": "@fjandin/fusebox-example",
+  "version": "1.0.0",
+  "description": "Fusebox example",
+  "main": "index.js",
+  "author": "René Bischoff <rene.bischoff@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node fuse.js",
+    "build": "node fuse.js build"
+  },
+  "devDependencies": {
+    "@types/css": "0.0.31",
+    "@types/react": "16.0.34",
+    "fuse-box": "3.0.2",
+    "fuse-box-typechecker": "2.7.0",
+    "postcss-cssnext": "3.0.2",
+    "postcss-modules": "1.1.0",
+    "postcss-modules-resolve-path": "1.0.0",
+    "tslint": "5.8.0",
+    "typescript": "2.6.2",
+    "uglify-js": "3.3.5"
+  },
+  "dependencies": {
+    "@types/redux": "3.6.0",
+    "classcat": "1.1.2",
+    "history": "4.7.2",
+    "path-to-regexp": "2.1.0",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-redux": "5.0.6",
+    "redux": "3.7.2",
+    "redux-actions": "2.2.1",
+    "redux-logger": "3.0.6",
+    "redux-saga": "0.16.0",
+    "redux-thunk": "2.2.0",
+    "tslib": "1.8.1"
+  }
+}

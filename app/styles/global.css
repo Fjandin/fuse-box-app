@@ -1,0 +1,13 @@
+@value dark-text from 'styles/colors.css';
+
+body {
+    background-color: #F8F8F8;
+}
+
+body,
+input,
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: dark-text;
+}

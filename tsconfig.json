@@ -1,0 +1,30 @@
+
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": false,
+        "emitDecoratorMetadata": false,
+        "declaration": false,
+        "noImplicitAny": false,
+        "noImplicitUseStrict": false,
+        "removeComments": false,
+        "noLib": false,
+        "outDir": "./build/",
+        "noEmitHelpers": true,
+        "importHelpers": true,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "baseUrl": "./app",
+        "sourceRoot": "./app"
+    },
+    "exclude": [],
+    "compileOnSave": false,
+    "buildOnSave": false,
+    "atom": {
+        "rewriteTsconfig": false
+    }
+}
